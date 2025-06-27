@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medium</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <section>
+        <img src="./assets/imgs/svg/logo.svg" alt="Medium" />
+        <nav>
+          <ul>
+            <li><button>Our Story</button></li>
+            <li><button>Membership</button></li>
+            <li><button>Write</button></li>
+            <li><button>Sign In</button></li>
+            <li><button>Get Started</button></li>
+          </ul>
+        </nav>
+      </section>
+       <article>
+        <h1>Stay curious.</h1>
+        <p>
+          Discover stories, thinking, and expertise from writers on any topic.
+        </p>
+        <button>Start reading</button>
+        </article>
+  <div><canvas id="mCanvas" width="500" height="400"></canvas>
+</div>
+    </header>
+    <main>
+    <section class="trending">
+   <h1><img src="./assets/imgs/svg/trending.svg" alt="before">Trending on Medium</h1>
+<div class="trading-grid">
+  <div class="item">
+    <span class="number">01</span>
+    <div class="content">
+      <div class="author"> <img src="./assets/imgs/image01.jpeg" alt="1">Tom Cooper</div>
+      <div class="category"><strong>Ukraine War, 23 October 2022</strong></div>
+      <div class="date-time">Oct 23 · 5 min read</div>
+    </div>
+  </div>
+
+  <div class="item">
+    <span class="number">02</span>
+    <div class="content">
+      <div class="author"> <img src="./assets/imgs/image02.png" alt="2">Arthur Hayes in Entrepreneur's Handbook</div>
+      <div class="category"><strong>Comeback</strong></div>
+      <div class="date-time">Oct 26 · 24 min read</div>
+    </div>
+  </div>
+
+  <div class="item">
+    <span class="number">03</span>
+    <div class="content">
+      <div class="author"><img src="./assets/imgs/image03.jpeg" alt="3">Tom Cooper</div>
+      <div class="category"><strong>How I Learned to Love My Breasts Even Though One Is A Horcrux For Voldemort</strong></div>
+      <div class="date-time">Oct 26 · 2 min read</div>
+    </div>
+  </div>
+
+  <div class="item">
+    <span class="number">04</span>
+    <div class="content">
+      <div class="author"><img src="./assets/imgs/image04.png" alt="4">Frank Mastropolo in The Riffk</div>
+      <div class="category"><strong>The Night Paul McCartney Donned a Disguise at Fillmore East</strong></div>
+      <div class="date-time">Oct 22 · 3 min read</div>
+    </div>
+  </div>
+
+  <div class="item">
+    <span class="number">05</span>
+    <div class="content">
+      <div class="author"><img src="./assets/imgs/image05.jpeg" alt="5">Frank Andrade in Towards Data Science</div>
+      <div class="category"><strong>5 Python Projects to Automate Your Life: From Beginner to Advanced</strong></div>
+      <div class="date-time">Oct 13 · 6 min read</div>
+    </div>
+  </div>
+
+  <div class="item">
+    <span class="number">06</span>
+    <div class="content">
+      <div class="author"><img src="./assets/imgs/image06.png" alt="6">Wesley Smits in JavaScript in Plain English</div>
+      <div class="category"><strong>How To Make Visual Studio Code Look Amazing</strong></div>
+      <div class="date-time">Oct 20 · 7 min read</div>
+    </div>
+  </div>
+  </div>
+  <div class="main-container">
+  <section class="articles">
+  <div class="article-card">
+    <div class="article-content">
+      <div class="author"><img src="./assets/imgs/image07.jpeg" alt="7">Robert Roy Britt</div>
+      <h2 class="title">How Old is Old?</h2>
+      <p class="excerpt">What we consider "old" changes dramatically with age, and our perspectives can be predictive of how well we age</p><img src="./assets/imgs/image08.jpeg" alt="8">
+      <div class="meta">
+        <span class="date">Oct 27 · 5 min read <img src="./assets/imgs/svg/bookmark.svg" alt="bookmark"></span>
+        <span class="tag">· Aging</span><img src="./assets/imgs/svg/star.svg" alt="star">
+      </div>
+    </div>
+  </div>
+
+  <div class="article-card">
+    <div class="article-content">
+      <div class="author"><img src="./assets/imgs/image09.jpeg" alt="9">Taru Anniina Liikanen</div>
+      <h2 class="title">Is Taylor Swift Allowed to Speak About Fat?</h2>
+      <p class="excerpt">Can you speak about your trauma if you don't look traumatized?</p><img src="./assets/imgs/image10.jpeg" alt="10">
+      <div class="meta">
+        <span class="date">Oct 24 · 6 min read</span><img src="./assets/imgs/svg/bookmark.svg" alt="bookmark">
+        <span class="tag">· Health</span><img src="./assets/imgs/svg/star.svg" alt="star">
+      </div>
+    </div>
+  </div>
+
+  <div class="article-card">
+    <div class="article-content">
+      <div class="author"> <img src="./assets/imgs/image11.jpeg" alt="11">David Rodenas, Ph. D.</div>
+      <h2 class="title">Don't Screw Up, You Will Be Found Guilty</h2>
+      <p class="excerpt">Software Engineer, yours is the right to produce high-quality work at all times, also the liability.</p><img src="./assets/imgs/image12.png" alt="12">
+      <div class="meta">
+        <span class="date">Oct 15 · 5 min read</span><img src="./assets/imgs/svg/bookmark.svg" alt="bookmark">
+        <span class="tag">· Software Engineering</span><img src="./assets/imgs/svg/star.svg" alt="star">
+      </div>
+    </div>
+  </div>
+
+  <div class="article-card">
+    <div class="article-content">
+      <div class="author"><img src="./assets/imgs/image13.png" alt="13">Microsoft Design</div>
+      <h2 class="title">Leave No Trace</h2>
+      <p class="excerpt">How product designers can break from the status quo and help our planet</p><img src="./assets/imgs/image14.png" alt="14">
+      <div class="meta">
+        <span class="date">Oct 25 · 11 min read</span><img src="./assets/imgs/svg/bookmark.svg" alt="bookmark">
+        <span class="tag">· Sustainability</span><img src="./assets/imgs/svg/star.svg" alt="star">
+      </div>
+    </div>
+  </div>
+
+  <div class="article-card">
+    <div class="article-content">
+      <div class="author"><img src="./assets/imgs/image15.jpeg" alt="15">Scott H. Young</div>
+      <h2 class="title">Variability, Not Repetition, is the Key to Mastery</h2>
+      <p class="excerpt">Bruce Lee is reported to have said, "I fear not the man who has practiced 10,000 kicks once, but the man who has practiced one kick 10,000..."</p><img src="./assets/imgs/image16.jpg" alt="16">
+      <div class="meta">
+        <span class="date">Oct 26 · 7 min read</span><img src="./assets/imgs/svg/bookmark.svg" alt="bookmark">
+        <span class="tag">· Health</span><img src="./assets/imgs/svg/star.svg" alt="star">
+      </div>
+    </div>
+  </div>
+
+  <div class="article-card">
+    <div class="article-content">
+      <div class="author"><img src="./assets/imgs/image17.png" alt="17">Paul A. DeStefano in Human Parts</div>
+      <h2 class="title">What I Overheard as an Escape Room Actor</h2>
+      <p class="excerpt">Lock a group of people in a room and you'll witness some surprising confessions</p><img src="./assets/imgs/image18.jpeg" alt="18">
+      <div class="meta">
+        <span class="date">Jan 18, 2020 · 6 min read</span><img src="./assets/imgs/svg/bookmark.svg" alt="bookmark">
+        <span class="tag">· Experiences</span><img src="./assets/imgs/svg/star.svg" alt="star">
+      </div>
+    </div>
+  </div>
+
+  <div class="article-card">
+    <div class="article-content">
+      <div class="author"><img src="./assets/imgs/image19.jpeg" alt="19">Kim Scott</div>
+      <h2 class="title">6 Steps for Setting Measurable Goals to Avoid "Productivity Paranoia"</h2>
+      <p class="excerpt">With more people working in remote and hybrid environments than ever before, company, team and individual goals must be explicit and...</p><img src="./assets/imgs/image20.jpg" alt="20">
+      <div class="meta">
+        <span class="date">Oct 24 · 6 min read</span><img src="./assets/imgs/svg/bookmark.svg" alt="bookmark">
+        <span class="tag">· Health</span><img src="./assets/imgs/svg/star.svg" alt="star">
+      </div>
+    </div>
+  </div>
+</section>
+  <aside class="sidebar">
+    <div class="discover-section">
+      <h3 class="discover-title">Discover more of what matters to you</h3>
+      <div class="categories-grid">
+        <button class="category-button">Programming</button>
+        <button class="category-button">Data Science</button>
+        <button class="category-button">Technology</button>
+        <button class="category-button">Self Improvement</button>
+        <button class="category-button">Writing</button>
+        <button class="category-button">Relationships</button>
+        <button class="category-button">Machine Learning</button>
+        <button class="category-button">Productivity</button>
+        <button class="category-button">Politics</button>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-links">
+        <a href="#" class="footer-link">Help</a>
+        <a href="#" class="footer-link">Status</a>
+        <a href="#" class="footer-link">Writers</a>
+        <a href="#" class="footer-link">Blog</a>
+        <a href="#" class="footer-link">Careers</a>
+        <a href="#" class="footer-link">Privacy</a>
+        <a href="#" class="footer-link">Terms</a>
+        <a href="#" class="footer-link">About</a>
+        <a href="#" class="footer-link">Knowable</a>
+      </div>
+    </div>
+  </aside>
+</div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
