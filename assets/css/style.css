@@ -73,6 +73,8 @@ header div {
   align-items: center;
   gap: 8px;
   margin-bottom: -60px;
+  padding-left: 200px;
+  padding-top: 50px;
 }
 
 .trending h1 img {
@@ -88,9 +90,10 @@ div.trending-grid {
 }
 
 .trending .item {
-  width: 22%;
+  width: 27%;
   display: inline-block;
-  padding: 72px;
+  margin-top: 65px;
+  padding-left: 250px;
 }
 
 .trending .number {
