@@ -292,3 +292,140 @@ div.trending-grid {
 .footer-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 1024px) {
+  header img {
+    left: 50px;
+  }
+
+  ul {
+    right: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  article {
+    left: 50px;
+    top: 120px;
+  }
+
+  .trending h1 {
+    padding-left: 50px;
+  }
+
+  .trending .item {
+    width: 90%;
+    padding-left: 50px;
+  }
+
+  .articles {
+    padding-left: 50px;
+    width: 100%;
+  }
+
+  .main-container {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    height: auto;
+    padding: 20px;
+  }
+
+  header img {
+    left: 20px;
+    top: 10px;
+    width: 100px;
+  }
+
+  ul {
+    position: static;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  ul button {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  article {
+    position: static;
+    padding: 20px;
+    text-align: center;
+  }
+
+  article h1 {
+    font-size: 48px;
+    line-height: 1.1;
+  }
+
+  article p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  article button {
+    font-size: 16px;
+    padding: 8px 25px;
+  }
+
+  header div {
+    position: static;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .trending h1 {
+    padding-left: 20px;
+  }
+
+  .trending .item {
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .articles {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .main-container {
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 0;
+  }
+
+  .article-content > img {
+    width: 100%;
+  }
+
+  .footer {
+    font-size: 1rem;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .footer-links {
+    justify-content: center;
+  }
+}
+.canvas {
+    display: none; }
